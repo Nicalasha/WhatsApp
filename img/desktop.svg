@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="25" viewBox="0 0 30 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1ebea5;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #1ebea5;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image id="Фон" width="30" height="25" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAK0lEQVRIie3NAQ0AMAgDsB3/nncZJKQ10Ne2WTAbacRisVgsFovF4kNxkg9A0AQuUDo0LwAAAABJRU5ErkJggg=="/>
+  <rect id="Прямоугольник_2" data-name="Прямоугольник 2" class="cls-1" width="30" height="20"/>
+  <path id="Прямоугольник_3" data-name="Прямоугольник 3" class="cls-2" d="M22,25H8l7-7"/>
+  <rect id="Прямоугольник_4" data-name="Прямоугольник 4" class="cls-3" y="16" width="30" height="4"/>
+</svg>

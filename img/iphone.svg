@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="24" viewBox="0 0 21 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1ebea5;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image id="Фон" width="21" height="24" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAYAAAAVibZIAAAAJ0lEQVQ4je3MMQEAAAjDsIJ/z0MEOxsBmSShbNshpqampqampl/AAX9CBCyk5mnVAAAAAElFTkSuQmCC"/>
+  <path id="Фигура_4" data-name="Фигура 4" class="cls-1" d="M17.7,12.753A5.325,5.325,0,0,0,21,17.608a13.128,13.128,0,0,1-1.705,3.415c-1.026,1.463-2.089,2.918-3.766,2.948-1.649.03-2.178-.953-4.064-0.953S8.992,23.941,7.433,24c-1.618.06-2.851-1.579-3.885-3.036-2.115-2.981-3.73-8.423-1.56-12.1A6.046,6.046,0,0,1,7.08,5.858C8.67,5.831,10.171,6.9,11.141,6.9s2.8-1.29,4.713-1.1a5.8,5.8,0,0,1,4.5,2.378A5.427,5.427,0,0,0,17.7,12.753ZM10.947,5.529a4.963,4.963,0,0,1,1.306-3.715A5.563,5.563,0,0,1,15.879,0,5.209,5.209,0,0,1,14.6,3.83,4.612,4.612,0,0,1,10.947,5.529Z"/>
+</svg>

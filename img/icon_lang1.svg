@@ -1,0 +1,44 @@
+<svg id="Группа_2" data-name="Группа 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="131" height="131" viewBox="0 0 131 131">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1ebea5;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        font-size: 16.372px;
+        text-anchor: middle;
+        font-family: "Open Sans";
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <image id="Фон" width="131" height="131" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIMAAACDCAYAAACunahmAAABKElEQVR4nO3SAQ2AQAzAwIF/zyOEfE1wJ6Hptbs7/N7rVoHDDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAx8ZuYBLGEFAq+nfSMAAAAASUVORK5CYII="/>
+  <rect id="Прямоугольник_1" data-name="Прямоугольник 1" class="cls-1" width="131" height="131"/>
+  <g id="Группа_1" data-name="Группа 1">
+    <circle id="Эллипс_1" data-name="Эллипс 1" class="cls-2" cx="27.078" cy="65.516" r="21.078"/>
+    <path id="Фигура_1" data-name="Фигура 1" class="cls-3" d="M26.737,86.575V44.728"/>
+    <path id="Фигура_2" data-name="Фигура 2" class="cls-3" d="M6.491,65.528H47.907"/>
+    <path id="Эллипс_2" data-name="Эллипс 2" class="cls-3" d="M27.2,44.421c6.188,0.085,10.369,9.843,10.369,21.416S33.03,86.311,27.2,86.329c-6.631.021-11.108-9.412-11.108-20.985S20.711,44.331,27.2,44.421Z"/>
+    <path id="Фигура_3" data-name="Фигура 3" class="cls-3" d="M10.676,52.79c13.254,6.835,22.849,5.231,32.37-.431"/>
+    <path id="Фигура_3-2" data-name="Фигура 3" class="cls-3" d="M43.414,78.329c-13.254-6.835-22.849-5.231-32.37.431"/>
+    <path id="Фигура_3-3" data-name="Фигура 3" class="cls-3" d="M10.991,78.145"/>
+    <path id="Фигура_4" data-name="Фигура 4" class="cls-3" d="M-212.238-76.791"/>
+  </g>
+  <text id="RU" class="cls-4" transform="translate(75.862 75.462) scale(1.616)"><tspan x="0">RU</tspan></text>
+  <path id="Прямоугольник_2" data-name="Прямоугольник 2" class="cls-5" d="M114,72h0l12-11H103Z"/>
+</svg>
