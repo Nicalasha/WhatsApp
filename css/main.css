@@ -67,7 +67,7 @@ menu {
     background: #1ebea5;
 }
 
-menu div {
+menu .header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -82,7 +82,7 @@ menu div {
     max-width: 1050px;
 }
 
-.header a {
+menu .header a {
     margin-left: 10px;
     font-size: 13px;
     line-height: 20px;
@@ -92,44 +92,7 @@ menu div {
     text-decoration: none;
 }
 
-button a {
-    color: #1CB39B;
-}
-
-a h3 {
-    color: #1CB39B;
-    font-weight: 400;
-}
-
-.links a img {
-    width: 25px;
-    height: 16px;
-    padding-right: 10px;
-}
-
-.links a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: left;
-        -ms-flex-pack: left;
-            justify-content: left;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 0 0 -16px 8px;
-}
-
-.links span {
-        display: inline-block;
-        padding: 10px;
-        font-size: 16px;
-        line-height: 26px;
-        font-weight: 300;
-        color: #62b39b;
-}
-
-.logo {
+menu .header .logo {
     background-image: url(../img/whatsapp-logo.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,7 +100,7 @@ a h3 {
     height: 39px;
 }
 
-.iconlange {
+menu .header .iconlange {
     background-image: url(../img/icon_lang1.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,7 +121,47 @@ a h3 {
     margin-top: 91px;
 }
 
-.img-phone {
+.section-1 .text-container {
+    height: 590px;
+    width: 470px;
+    margin: 140px 0 0 20px;
+    padding-right: 40px;
+}
+
+.section-1 .text-container h3 + p {
+    opacity: 0.3;
+    margin-top: -8px;
+}
+
+.section-1 .links a img {
+    width: 25px;
+    height: 16px;
+    padding-right: 10px;
+}
+
+.section-1 .links a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 0 -16px 8px;
+}
+
+.section-1 .links span {
+        display: inline-block;
+        padding: 10px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #1CB39B;
+        font-weight: 400;
+}
+
+.section-1 .img-phone {
     width: 321px;
 }
 
@@ -172,7 +175,8 @@ a h3 {
     margin: 0 auto;
 }
 
-.left {
+
+.section-2 .left {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -192,7 +196,7 @@ a h3 {
     background: #d0e9ea;
 }
 
-.right {
+.section-2 .right {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; 
@@ -208,52 +212,40 @@ a h3 {
     background: #edf8f5;
 }
 
-.right h4 + h2 {
+.section-2 .right h4 + h2 {
     margin-top: -10px;
     letter-spacing: 0.02em;
 }
 
-.txt1 {
+.section-2 .left .txt1 {
     margin: 60px 12% 0;
     text-align: center;
 }
 
-.txt1 p {
+.section-2 .left .txt1 p {
     font-size: 14px;
 }
 
-.txt1 h2 {
+.section-2 .left .txt1 h2 {
     letter-spacing: 0.05em;
 }
 
-.txt2 {
+.section-2 .left .img1-section-2 {
+    margin: 0 auto;
+}
+
+.section-2 .right .txt2 {
     margin: 10px 12% 0;
     text-align: center;
 
 }
 
-.txt2 p {
+.section-2 .right .txt2 p {
     font-size: 14px;
     line-height: 21px;
 }
 
-.text-container {
-    height: 590px;
-    width: 470px;
-    margin: 140px 0 0 20px;
-    padding-right: 40px;
-}
-
-.text-container h3 + p {
-    opacity: 0.3;
-    margin-top: -8px;
-}
-
-.img1-section-2 {
-    margin: 0 auto;
-}
-
-.img2-section-2 {
+.section-2 .right .img2-section-2 {
     margin: 100px auto 0;
 }
 
@@ -264,7 +256,7 @@ a h3 {
     margin: 90px auto;
 }
 
-.btn {
+.button .btn {
     background: white;
     border: 2px solid #77d7c8;
     border-radius: 40px;
@@ -278,7 +270,11 @@ a h3 {
     display: block;
 }
 
-.nav {
+footer {
+    background-color: #273443;
+}
+
+footer .nav {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[4];
@@ -288,8 +284,7 @@ a h3 {
     max-width: 1050px;
 }
 
-
-.column {
+footer .nav .column {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -300,27 +295,27 @@ a h3 {
     margin: 25px 0;
 }
 
-.column a, .column p {
+footer .nav .column a, .column p {
     padding-bottom: 2px;
     color: white;
     line-height: 25px;
     font-size: 13px;
 }
 
-.column a:hover {
+footer .nav .column a:hover {
     text-decoration: underline;
 }
 
-.column p {
+footer .nav .column p {
     opacity: 0.7;
 }
 
-.conditions {
+footer .nav .conditions {
     background-color: #232f3c;
     width: 100%;
 }
 
-.conditions-wrapper {
+footer .conditions .conditions-wrapper {
     max-width: 1050px;
     margin: auto;
     padding: 7px 0 7px 20px;
@@ -339,47 +334,45 @@ a h3 {
             justify-content: flex-start;
 }
 
-.conditions a, .conditions p {
+footer .conditions a, .conditions p {
     color: white;
     line-height: 23px;
     font-size: 13px;
 }
 
-.conditions p {
+footer .conditions p {
     width: 25%;
     opacity: 0.7;
 }
 
-.conditions a {
+footer .conditions a {
     width: 75%;
 }
 
-footer {
-    background-color: #273443;
-}
+
 
 @media (min-width: 1101px) {
   
-    .text-container .small {
+    .section-1 .text-container .small {
         display: none;
     }
 }
 
 @media (max-width: 1100px) {
-    menu div {
+    menu .header {
         height: 75px;
     }
 
-    .header a:last-child {
+    menu .header a:last-child {
         margin-right: 10px;
     }
 
-    .logo {
+    menu .header .logo {
         width: 35px;
         height: 35px;
     }
 
-    .iconlange {
+    menu .header .iconlange {
         background-image: url(../img/icon_lang_png.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -390,22 +383,22 @@ footer {
         margin-top: 75px;
     }
 
-    .text-container {
+    .section-1 .text-container {
         margin: 70px 0 0 0;
         width: 339px;
         height: 615px;
     }
 
-    .large {
+    .section-1 .text-container .large {
         display: none;
     }
 
-    .img-phone {
+    .section-1 .img-phone {
         width: 280px;
         height: 528px;
     }   
     
-    .text-container .large {
+    .section-1 .text-container .large {
         display: none;
     }
 }
@@ -416,7 +409,7 @@ footer {
         position: inherit;
     }
 
-    menu div {
+    menu .header {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -428,16 +421,16 @@ footer {
         width: 100%;
     }
         
-    .header a:nth-child(n+2):nth-child(-n+6){
+    menu .header a:nth-child(n+2):nth-child(-n+6){
         display: none;
     }
 
-    .header a:last-child {
+    menu .header a:last-child {
         margin-left: auto;
         margin-top: 10px;
     }
 
-    .logo {
+    menu .header .logo {
         -ms-flex-item-align: center;
             -ms-grid-row-align: center;
             align-self: center;
@@ -447,7 +440,7 @@ footer {
         height: 77px;
     }
 
-    .iconlange {
+    menu .heade .iconlange {
         background-image: url(../img/burger.svg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -463,7 +456,7 @@ footer {
         height: 67vh;
     }
     
-    .text-container {
+    .section-1 .text-container {
         margin: 0 auto 50px auto;
         height: auto;
         width: 91vw;
@@ -471,7 +464,7 @@ footer {
         padding: 0;
     }
 
-    .text-container .large {
+    .section-1 .text-container .large {
         display: block;
         font-size: 23px;
         line-height: 28px;
@@ -480,28 +473,28 @@ footer {
         padding-top: 6px;
     }
 
-    .text-container .small {
+    .section-1 .text-container .small {
         display: none;
     }
 
-    .text-container h3 {
+    .section-1 .text-container h3 {
         color: white;
         margin-bottom: 50px;
     }
 
-    .text-container p {
+    .section-1 .text-container p {
         display: none;
     }
 
-    .section-1 .links {
+    .section-1 .text-container .links {
         margin-top: 30px;
     }
 
-    .section-1 .links a{
+    .section-1 .text-container .links a{
         display: none;
     }
 
-    .links::after {
+    .section-1 .text-container .links::after {
         content: "Скачать сейчас";
         background-color: #01e675;
         width: 220px;
@@ -581,10 +574,6 @@ footer {
     footer .conditions p {
         margin-top: 0;
     }
-}
-
-@media (max-width: 400px) {
-
 }
 
 @font-face {
